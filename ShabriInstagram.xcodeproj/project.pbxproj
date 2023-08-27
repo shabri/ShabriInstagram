@@ -14,7 +14,6 @@
 		73205C362A9BF9BA00D0BAC0 /* ShabriInstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73205C352A9BF9BA00D0BAC0 /* ShabriInstagramTests.swift */; };
 		73205C402A9BF9BB00D0BAC0 /* ShabriInstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73205C3F2A9BF9BB00D0BAC0 /* ShabriInstagramUITests.swift */; };
 		73205C422A9BF9BB00D0BAC0 /* ShabriInstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73205C412A9BF9BB00D0BAC0 /* ShabriInstagramUITestsLaunchTests.swift */; };
-		73205C572A9BFDB100D0BAC0 /* ShabriUIPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 73205C562A9BFDB100D0BAC0 /* ShabriUIPackage */; };
 		73205C5B2A9BFE3800D0BAC0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73205C5A2A9BFE3800D0BAC0 /* HomeViewController.swift */; };
 		73205C5F2A9BFF2800D0BAC0 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73205C5E2A9BFF2800D0BAC0 /* ExploreViewController.swift */; };
 		73205C662A9BFFB700D0BAC0 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73205C652A9BFFB700D0BAC0 /* CameraViewController.swift */; };
@@ -32,6 +31,7 @@
 		73205C9F2A9C04F300D0BAC0 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73205C9E2A9C04F300D0BAC0 /* PublishPostViewController.swift */; };
 		73205CA32A9C075F00D0BAC0 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73205CA22A9C075F00D0BAC0 /* MainTabBarViewController.swift */; };
 		73205CA62A9C07C100D0BAC0 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73205CA52A9C07C100D0BAC0 /* Screen.swift */; };
+		737501C22A9C105100990FCB /* ShabriUIPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 737501C12A9C105100990FCB /* ShabriUIPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +63,6 @@
 		73205C3B2A9BF9BB00D0BAC0 /* ShabriInstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShabriInstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		73205C3F2A9BF9BB00D0BAC0 /* ShabriInstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShabriInstagramUITests.swift; sourceTree = "<group>"; };
 		73205C412A9BF9BB00D0BAC0 /* ShabriInstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShabriInstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		73205C542A9BFCF300D0BAC0 /* ShabriUIPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ShabriUIPackage; sourceTree = "<group>"; };
 		73205C5A2A9BFE3800D0BAC0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		73205C5E2A9BFF2800D0BAC0 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		73205C652A9BFFB700D0BAC0 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +80,7 @@
 		73205C9E2A9C04F300D0BAC0 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
 		73205CA22A9C075F00D0BAC0 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		73205CA52A9C07C100D0BAC0 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		737501C02A9C0FFA00990FCB /* ShabriUIPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ShabriUIPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73205C572A9BFDB100D0BAC0 /* ShabriUIPackage in Frameworks */,
+				737501C22A9C105100990FCB /* ShabriUIPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +112,6 @@
 		73205C122A9BF9BA00D0BAC0 = {
 			isa = PBXGroup;
 			children = (
-				73205C542A9BFCF300D0BAC0 /* ShabriUIPackage */,
 				73205C1D2A9BF9BA00D0BAC0 /* ShabriInstagram */,
 				73205C342A9BF9BA00D0BAC0 /* ShabriInstagramTests */,
 				73205C3E2A9BF9BB00D0BAC0 /* ShabriInstagramUITests */,
@@ -134,6 +133,7 @@
 		73205C1D2A9BF9BA00D0BAC0 /* ShabriInstagram */ = {
 			isa = PBXGroup;
 			children = (
+				737501C02A9C0FFA00990FCB /* ShabriUIPackage */,
 				73205C722A9C011400D0BAC0 /* Non Tabs */,
 				73205C712A9C00DB00D0BAC0 /* Core Tabs */,
 				73205CA42A9C079400D0BAC0 /* Utilities */,
@@ -481,7 +481,7 @@
 			);
 			name = ShabriInstagram;
 			packageProductDependencies = (
-				73205C562A9BFDB100D0BAC0 /* ShabriUIPackage */,
+				737501C12A9C105100990FCB /* ShabriUIPackage */,
 			);
 			productName = ShabriInstagram;
 			productReference = 73205C1B2A9BF9BA00D0BAC0 /* ShabriInstagram.app */;
@@ -954,7 +954,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		73205C562A9BFDB100D0BAC0 /* ShabriUIPackage */ = {
+		737501C12A9C105100990FCB /* ShabriUIPackage */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ShabriUIPackage;
 		};
